@@ -1,0 +1,77 @@
+Chức Năng&Menu
+
+main fram."()
+
+minh.gg"))()=cày lever
+minh.gg"))()=cày bones
+minh.gg"))()=cày kata
+minh.gg"))()=exit
+
+stack fram."()
+
+minh.gg"))()=đánh bại don swan
+minh.gg"))()=kill smoke
+minh.gg"))()=tự động tushita
+minh.gg"))()=tự động yama
+minh.gg"))()=auto buddy 
+minh.gg"))()=tự đông gậy trọng lực
+minh.gg"))()=exit
+
+Quest."()
+
+minh.gg"))()=tự động tộc draco
+minh.gg"))()=tự động draco v2
+minh.gg"))()=auto draco v3
+minh.gg"))()=tự động skull guitar
+minh.gg"))()=auto CDK
+minh.gg"))()=exit
+
+sea event."()
+
+minh.gg"))()=tự động sea 6
+minh.gg"))()=tự động kill tất cả sea event
+minh.gg"))()=tự động kill cá mập con
+minh.gg"))()=tự động kill cá điện
+minh.gg"))()=tự động kill cá mẹ
+minh.gg"))()=exit
+
+framning."()
+
+minh.gg"))()=tự động cày quạng nham thạch
+minh.gg"))()=tự động cày vảy cá
+
+
+Chức Năng
+
+local player speed fly"(345)"speed
+local player speed attack"(325)speed
+local Rayfield = loadstring(game:HttpGet('https://[Log in to view URL]'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "D-azu ScriptHub",
+   LoadingTitle = D-azu Script "
+   LoadingSubtitle = "by bins288",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "D-azu Hub"
+   },
+   Discord = {
+      Enabled = true,
+      Invite = "FMqcdntv8s", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local MainTab = Window:CreateTab("Home",nil ) -- Title, Image
+local MainSection = Tab:CreateSection("Main")
